@@ -24,7 +24,7 @@ function App() {
             <section className="article__main-description">
               <h3 className="article__subtitle">History</h3>
               <p className="article__paragraph">Everything that Hadn Dadn's gaze falls on becomes Hadn Dadn.</p>
-              <p className="article__paragraph">The musical group was created in <time datetime="2016">2016</time>. The name of the group was given by Varvara Kraminova, who in her childhood called everything in a row with the phrase “hadn dadn”. The band members define their own genre as "liaoakyn". The word "liaoakyn", invented by the producer of the group <a href="https://www.kinopoisk.ru/name/4190871/" target="_blank">Anton Moiseenko</a>, consists of two parts: "liao" - ethnic motives and self-righteousness, "akyn" - knowledge of the world through personal experience.</p>
+              <p className="article__paragraph">The musical group was created in <time datetime="2016">2016</time>. The name of the group was given by Varvara Kraminova, who in her childhood called everything in a row with the phrase “hadn dadn”. The band members define their own genre as "liaoakyn". The word "liaoakyn", invented by the producer of the group <a href="https://www.kinopoisk.ru/name/4190871/" target="_blank" rel="noopener noreferrer">Anton Moiseenko</a>, consists of two parts: "liao" - ethnic motives and self-righteousness, "akyn" - knowledge of the world through personal experience.</p>
               <p className="article__paragraph">In <time datetime="2020-03">March 2020</time>, Khadn Dadn performed at the Evening Urgant show on Channel One (russian television):</p>
               <center><iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/nD3b83HzD7c?start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
             </section>
@@ -44,29 +44,29 @@ function App() {
               <h3 className="article__subtitle">Discography</h3>
               <ul>
                 <li><time datetime="2017">2017</time> - Gradual Album</li>
-                <li><time datetime="2017">2017</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%A2%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9+%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC" target="_blank">Secret albumt</a></li>
-                <li><time datetime="2018">2018</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%9F%D0%BE%D0%B4%D1%80%D1%83%D0%B6%D0%BA%D0%B8" target="_blank">Girlfriends</a></li>
-                <li><time datetime="2019">2019</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%9B%D1%8F%D0%BE%D0%B0%D0%BA%D1%8B%D0%BD" target="_blank">Liaoakung</a></li>
-                <li><time datetime="2020">2020</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%9D%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%B3%D0%B8%D1%8F" target="_blank">Nostalgia</a></li>
+                <li><time datetime="2017">2017</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%A2%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9+%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC" target="_blank" rel="noopener noreferrer">Secret albumt</a></li>
+                <li><time datetime="2018">2018</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%9F%D0%BE%D0%B4%D1%80%D1%83%D0%B6%D0%BA%D0%B8" target="_blank" rel="noopener noreferrer">Girlfriends</a></li>
+                <li><time datetime="2019">2019</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%9B%D1%8F%D0%BE%D0%B0%D0%BA%D1%8B%D0%BD" target="_blank" rel="noopener noreferrer">Liaoakung</a></li>
+                <li><time datetime="2020">2020</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%9D%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%B3%D0%B8%D1%8F" target="_blank" rel="noopener noreferrer">Nostalgia</a></li>
               </ul>
             </section>
             <section className="article__external-links">
               <h3 className="article__subtitle">More information</h3>
-              <p className="article__paragraph">You could read more about Hadn Dadn on <a id="tribute-link" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD">Wikipedia</a>.</p>
+              <p className="article__paragraph">You could read more about Hadn Dadn on <a id="tribute-link" target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD">Wikipedia</a>.</p>
             </section>
             <section className="article__social-media">
               <h3 className="article__subtitle">Official Hadn Dadn's social media</h3>
               <ul className="social-media-list">
-                <li><a target="_blank" className="fa fa-youtube" href="https://www.youtube.com/channel/UCNWI_pyxZk0xbPTfgTl_P-A"></a></li>
-                <li><a target="_blank" className="fa fa-vk" href="https://vk.com/hadndadn"></a></li>
-                <li><a target="_blank" className="fa fa-facebook" href="https://www.facebook.com/hadndadn/"></a></li>
-                <li><a target="_blank" className="fa fa-instagram" href="https://www.instagram.com/hadn_dadn/?hl=ru"></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" className="fa fa-youtube" href="https://www.youtube.com/channel/UCNWI_pyxZk0xbPTfgTl_P-A"><div class="sr-only">Youtube</div></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" className="fa fa-vk" href="https://vk.com/hadndadn"><div class="sr-only">VKontakte</div></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" className="fa fa-facebook" href="https://www.facebook.com/hadndadn/"><div class="sr-only">Facebook</div></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" className="fa fa-instagram" href="https://www.instagram.com/hadn_dadn/?hl=ru"><div class="sr-only">Instagram</div></a></li>
               </ul>
             </section>  
           </article> 
         </main>
 
-        <footer className="footer">This webpage is created by <a href="https://www.appalse.ru/" target="_blank">appalse</a>, <time datetime="2021">2021</time></footer>
+        <footer className="footer">This webpage is created by <a href="https://www.appalse.ru/" target="_blank" rel="noopener noreferrer">appalse</a>, <time datetime="2021">2021</time></footer>
       </div>
     </div>
           
