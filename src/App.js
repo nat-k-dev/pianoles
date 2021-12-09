@@ -33,9 +33,9 @@ function App() {
             <section className="article__composition">
               <h3 className="article__subtitle">Composition</h3>
               <ul className="members-list">
-                <li>Varvara Kraminova</li>
-                <li>Nikita Chernat</li>
-                <li>Sergey Kakurkin</li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kramvaro/">Varvara Kraminova</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shiimemtsh/?hl=ru">Nikita Chernat</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://vk.com/id38986168">Sergey Kakurkin</a></li> 
               </ul>
             </section>
             <section className="article__awards">
