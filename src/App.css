@@ -21,6 +21,8 @@ a {
 .main-content {
   flex: 1;
   max-width: 600px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .footer {
