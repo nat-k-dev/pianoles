@@ -7,8 +7,6 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       <div id="main">
         <header className="header">
           <h1 id="title" className="header__title">Hadn Dadn</h1>
@@ -72,8 +70,6 @@ function App() {
 
         <footer className="footer">This webpage is created by <a href="https://www.appalse.ru/" target="_blank" rel="noopener noreferrer">appalse</a>, <time datetime="2021">2021</time></footer>
       </div>
-    </div>
-          
   );
 }
 
