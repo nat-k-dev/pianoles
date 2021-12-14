@@ -7,7 +7,7 @@ function App() {
   const { t } = useTranslation();
   
   useEffect(() => {
-      document.title = 'Hadn Dadn Tribute Page'
+      document.title = t("document_title")
   }, []);
 
   return (
@@ -29,28 +29,28 @@ function App() {
           </figure>
         
           <article id="tribute-info" className="main-content__article article">
-            <h2 className="article__title">Here are some interesting stories and facts about Hadn Dadn</h2>
+            <h2 className="article__title">{t("article_title")}</h2>
             <section className="article__main-description">
-              <h3 className="article__subtitle">History</h3>
-              <p className="article__paragraph">Everything that Hadn Dadn's gaze falls on becomes Hadn Dadn.</p>
+              <h3 className="article__subtitle">{t("history")}</h3>
+              <p className="article__paragraph">{t("everything_that_hadn_dadns_gaze_falls")}</p>
               <p className="article__paragraph">The musical group was created in <time dateTime="2016">2016</time>. The name of the group was given by Varvara Kraminova, who in her childhood called everything in a row with the phrase “hadn dadn”. The band members define their own genre as "liaoakyn". The word "liaoakyn", invented by the producer of the group <a href="https://www.kinopoisk.ru/name/4190871/" target="_blank" rel="noopener noreferrer">Anton Moiseenko</a>, consists of two parts: "liao" - ethnic motives and self-righteousness, "akyn" - knowledge of the world through personal experience.</p>
               <p className="article__paragraph">In <time dateTime="2020-03">March 2020</time>, Khadn Dadn performed at the Evening Urgant show on Channel One (russian television):</p>
               <center><iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/nD3b83HzD7c?start=29" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></center>
             </section>
             <section className="article__composition">
-              <h3 className="article__subtitle">Composition</h3>
+              <h3 className="article__subtitle">{t("composition")}</h3>
               <ul className="members-list">
-                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kramvaro/">Varvara Kraminova</a></li>
-                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shiimemtsh/?hl=ru">Nikita Chernat</a></li>
-                <li><a target="_blank" rel="noopener noreferrer" href="https://vk.com/id38986168">Sergey Kakurkin</a></li> 
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kramvaro/">{t("varvara_kraminova")}</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shiimemtsh/?hl=ru">{t("nikita_chernat")}</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://vk.com/id38986168">{t("sergey_kakurkin")}</a></li> 
               </ul>
             </section>
             <section className="article__awards">
-              <h3 className="article__subtitle">Awards</h3>
+              <h3 className="article__subtitle">{t("awards")}</h3>
               <p>In <time dateTime="2018">2018</time>, the group won the Jager Music Awards in the Young Blood category.</p>
             </section>
             <section className="article__albums">
-              <h3 className="article__subtitle">Discography</h3>
+              <h3 className="article__subtitle">{t("discography")}</h3>
               <ul>
                 <li><time dateTime="2017">2017</time> - Gradual Album</li>
                 <li><time dateTime="2017">2017</time> - <a href="https://www.last.fm/ru/music/%D0%A5%D0%B0%D0%B4%D0%BD+%D0%B4%D0%B0%D0%B4%D0%BD/%D0%A2%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9+%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC" target="_blank" rel="noopener noreferrer">Secret albumt</a></li>
@@ -60,11 +60,11 @@ function App() {
               </ul>
             </section>
             <section className="article__external-links">
-              <h3 className="article__subtitle">More information</h3>
+              <h3 className="article__subtitle">{t("more_information")}</h3>
               <p className="article__paragraph">You could read more about Hadn Dadn on <a id="tribute-link" target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD">Wikipedia</a>.</p>
             </section>
             <section className="article__social-media">
-              <h3 className="article__subtitle">Official Hadn Dadn's social media</h3>
+              <h3 className="article__subtitle">{t("official_social_media")}</h3>
               <ul className="social-media-list">
                 <li><a target="_blank" rel="noopener noreferrer" className="fa fa-youtube" href="https://www.youtube.com/channel/UCNWI_pyxZk0xbPTfgTl_P-A"><div className="sr-only">Youtube</div></a></li>
                 <li><a target="_blank" rel="noopener noreferrer" className="fa fa-vk" href="https://vk.com/hadndadn"><div className="sr-only">VKontakte</div></a></li>
