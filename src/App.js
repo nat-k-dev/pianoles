@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './App.css';
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import LanguageSelect from "./languageSelect";
 
 function App() {
@@ -25,7 +25,11 @@ function App() {
               <a href="https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD_2020.jpg#/media/Файл:Хадн_дадн_2020.jpg">
                 <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD_2020.jpg" alt="Hadn Dadn on stage"/>
               </a>
-            <figcaption id="img-caption">Hand Dadn are on the stage on <time dateTime="2020-09-06">September 6, 2020</time>, Author: Kerrin Key</figcaption>
+              <figcaption id="img-caption">
+                <Trans i18nKey="figcaption_img_caption">
+                  Hand Dadn are on the stage on <time dateTime="2020-09-06">September 6, 2020</time>, Author: Kerrin Key
+                </Trans>
+              </figcaption>
           </figure>
         
           <article id="tribute-info" className="main-content__article article">
@@ -33,7 +37,11 @@ function App() {
             <section className="article__main-description">
               <h3 className="article__subtitle">{t("history")}</h3>
               <p className="article__paragraph">{t("everything_that_hadn_dadns_gaze_falls")}</p>
-              <p className="article__paragraph">The musical group was created in <time dateTime="2016">2016</time>. The name of the group was given by Varvara Kraminova, who in her childhood called everything in a row with the phrase “hadn dadn”. The band members define their own genre as "liaoakyn". The word "liaoakyn", invented by the producer of the group <a href="https://www.kinopoisk.ru/name/4190871/" target="_blank" rel="noopener noreferrer">Anton Moiseenko</a>, consists of two parts: "liao" - ethnic motives and self-righteousness, "akyn" - knowledge of the world through personal experience.</p>
+              <p className="article__paragraph">
+                <Trans i18nKey="the_musical_group_was_created">
+                  The musical group was created in <time dateTime="2016">2016</time>. The name of the group was given by Varvara Kraminova, who in her childhood called everything in a row with the phrase 'hadn dadn'. The band members define their own genre as 'liaoakyn'. The word 'liaoakyn', invented by the producer of the group <a href="https://www.kinopoisk.ru/name/4190871/" target="_blank" rel="noopener noreferrer">Anton Moiseenko</a>, consists of two parts: 'liao' - ethnic motives and self-righteousness, 'akyn' - knowledge of the world through personal experience.
+                </Trans>
+              </p>
               <p className="article__paragraph">In <time dateTime="2020-03">March 2020</time>, Khadn Dadn performed at the Evening Urgant show on Channel One (russian television):</p>
               <center><iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/nD3b83HzD7c?start=29" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></center>
             </section>
