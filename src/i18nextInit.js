@@ -5,9 +5,10 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import translationEN from "./assets/locales/en/translation.json";
 import translationRU from "./assets/locales/ru/translation.json";
 import translationFR from "./assets/locales/fr/translation.json";
+import translationNL from "./assets/locales/nl/translation.json";
 
 const fallbackLng = ["en"];
-const availableLanguages = ["en", "ru", "fr"];
+const availableLanguages = ["en", "ru", "fr", "nl"];
 
 const resources = {
   en: {
@@ -18,6 +19,9 @@ const resources = {
   },
   fr: {
     translation: translationFR
+  },
+  nl: {
+    translation: translationNL
   }
 };
 
@@ -41,7 +45,7 @@ i18n
       escapeValue: false
     },
     react: { 
-      useSuspense: false //   <---- this will do the magic
+      useSuspense: false
     }
   });
 

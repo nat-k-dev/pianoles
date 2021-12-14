@@ -12,7 +12,8 @@ import ListSubheader from "@material-ui/core/ListSubheader";
 const languageMap = {
   en: { label: "English", dir: "ltr", active: true },
   ru: { label: "Русский", dir: "ltr", active: false },
-  fr: { label: "Français", dir: "ltr", active: false }
+  fr: { label: "Français", dir: "ltr", active: false },
+  nl: { label: "Nederlands", dir: "ltr", active: false }
 };
 
 const LanguageSelect = () => {

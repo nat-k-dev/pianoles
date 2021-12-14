@@ -4,11 +4,11 @@ import { useTranslation } from "react-i18next";
 import LanguageSelect from "./languageSelect";
 
 function App() {
+  const { t } = useTranslation();
+  
   useEffect(() => {
       document.title = 'Hadn Dadn Tribute Page'
   }, []);
-
-  const { t } = useTranslation();
 
   return (
       <div id="main">
