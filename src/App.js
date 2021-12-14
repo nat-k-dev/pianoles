@@ -17,7 +17,7 @@ function App() {
             <LanguageSelect />
           </div>
           <h1 id="title" className="header__title">{t("hadn_dadn")}</h1>
-          <p className="header__description">Moscow music band, combination of folk motives and synth-pop</p>
+          <p className="header__description">{t("moscow_music_group")}</p>
         </header>
         
         <main className='main-content'>
