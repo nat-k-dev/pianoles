@@ -7,7 +7,7 @@ function App() {
   const { t } = useTranslation();
   
   useEffect(() => {
-      document.title = t("document_title")
+      document.title = "Hadn Dadn"
   }, []);
 
   return (
