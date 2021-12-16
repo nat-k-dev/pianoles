@@ -18,7 +18,6 @@ const languageMap = {
 
 const LanguageSelect = () => {
   const selected = localStorage.getItem("i18nextLng").split('-')[0] || "en";
-  console.log('selected:', selected, ' , languageMap:', languageMap);
   const { t } = useTranslation();
 
   const [menuAnchor, setMenuAnchor] = React.useState(null);
