@@ -10,7 +10,7 @@ function App() {
   }, []);
 
   return (
-      <div id="main">
+      <div className="main">
         <Header />
         <MainContent />
         <Footer />

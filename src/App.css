@@ -10,7 +10,7 @@ a {
   color: hsl(240, 40%, 20%);
 }
 
-#main {
+.main {
   height: 100%;
   width: 100%;
   display: flex;
