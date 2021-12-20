@@ -7,11 +7,11 @@ const Header = () => {
 
     return (
         <header className="header">
-          <div className="language-select">
+          <div className="header__language-select">
             <LanguageSelect />
           </div>
-          <h1 id="title" className="header__title">{t("hadn_dadn")}</h1>
-          <p className="header__description">{t("moscow_music_group")}</p>
+          <h1 className="header__title header__title_font_important">{t("hadn_dadn")}</h1>
+          <p className="header__description header__description_font_800">{t("moscow_music_group")}</p>
         </header>
     );
 };

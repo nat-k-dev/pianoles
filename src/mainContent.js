@@ -4,12 +4,12 @@ import Article from "./article";
 
 const MainContent = () => {
     return (
-        <main className='main-content'>
-          <figure id="img-div" className="main-content__image">
+        <main className='main__main-content main-content main-content_background_light'>
+          <figure>
               <a href="https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD_2020.jpg#/media/Файл:Хадн_дадн_2020.jpg">
-                <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD_2020.jpg" alt="Hadn Dadn on stage"/>
+                <img className="main-content__image" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD_2020.jpg" alt="Hadn Dadn on stage"/>
               </a>
-              <figcaption id="img-caption">
+              <figcaption className="main-content__image-caption image-caption image-caption_text_small image-caption_text_italic">
                 <Trans i18nKey="figcaption_img_caption">
                   Hand Dadn are on the stage on <time dateTime="2020-09-06">September 6, 2020</time>, Author: Kerrin Key
                 </Trans>

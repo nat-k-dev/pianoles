@@ -7,7 +7,7 @@ const Article = () => {
 
     return (
         <article id="tribute-info" className="main-content__article article">
-            <h2 className="article__title">{t("article_title")}</h2>
+            <h2 className="article__title article__title_font_800">{t("article_title")}</h2>
             <section className="article__main-description">
               <h3 className="article__subtitle">{t("history")}</h3>
               <p className="article__paragraph">{t("everything_that_hadn_dadns_gaze_falls")}</p>
