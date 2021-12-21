@@ -13,6 +13,13 @@
 .header__language-select {
     float: right;
 }
+
+@media only screen and (max-width: 365px) {
+    .header__language-select {
+        float: none;
+        width: fit-content;
+    }
+}
   
 .header__title {
     white-space: nowrap;
