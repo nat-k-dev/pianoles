@@ -4,7 +4,7 @@ import Header from "./header";
 import { useTranslation } from "react-i18next";
 import MainContent from "./mainContent";
 import Footer from "./footer";
-import LanguageSelect from "./languageSelect";
+//import LanguageSelect from "./languageSelect";
 
 function App() {
   useEffect(() => {
@@ -12,6 +12,7 @@ function App() {
   }, []);
 
   const { t } = useTranslation();
+  document.title = t("document_title");  
 
   return (
       <div className="main">
