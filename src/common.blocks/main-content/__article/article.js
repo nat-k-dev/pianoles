@@ -77,7 +77,7 @@ const Article = () => {
               <h3 className="article__subtitle">{t("more_information")}</h3>
               <p className="article__paragraph paragraph">
                 <Trans i18nKey="you_could_read_more">
-                  You could read more about Hadn Dadn on <a className="link link__text-color_special-purple" target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD">Wikipedia</a>.
+                  You could listen to <a className="link link__text-color_special-purple" target="_blank" rel="noopener noreferrer" href="https://hadndadn.onerpm.link/music">their music</a> or read more on <a className="link link__text-color_special-purple" target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%B4%D0%BD_%D0%B4%D0%B0%D0%B4%D0%BD">Wikipedia</a>.
                 </Trans>
               </p>
             </section>
