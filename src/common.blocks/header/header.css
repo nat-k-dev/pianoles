@@ -17,24 +17,38 @@
 }
   
 .header__title {
+    white-space: nowrap;
     text-align: center;
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 20px auto;
 }
 
-.header__title_font_important {
-    font-weight: 900;
+.header__title_font_big-caveat {
     font-size: 50px;
-}
-
-@media only screen and (max-width: 600px) {
-    .header__title_font_important {
-        font-size: 30px;
-    } 
+    font-family: Caveat, sans-serif;
 }
 
 .header__description {
     text-align: center;
 }
 
-.header__description_font_800 {
-    font-weight: 800;
+.header__description_font_small-caveat {
+    font-size: 30px;
+    font-family: Caveat, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .header__description_font_small-caveat {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header__title_font_big-caveat {
+        font-size: 30px;
+    }
+    .header__description_font_small-caveat {
+        font-size: 20px;
+    }
 }
