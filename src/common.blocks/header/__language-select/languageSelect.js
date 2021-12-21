@@ -41,7 +41,7 @@ const LanguageSelect = () => {
           horizontal: "right"
         }}
       >
-        <div class="language-select__list-item">
+        <div className="language-select__list-item">
           <List>
             {Object.keys(languageMap)?.map(item => (
               <ListItem
