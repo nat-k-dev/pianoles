@@ -23,7 +23,9 @@ const Article = () => {
                   In <time dateTime="2020-03">March 2020</time>, Hadn Dadn performed at the Evening Urgant show on Channel One (russian television):
                 </Trans>
               </p>
-              <center><iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/nD3b83HzD7c?start=29" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></center>
+              <center>
+                <iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/nD3b83HzD7c?start=29" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </center>
             </section>
             <section className="article__composition">
               <h3 className="article__subtitle">{t("composition")}</h3>
