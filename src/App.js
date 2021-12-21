@@ -4,7 +4,6 @@ import Header from "./header";
 import { useTranslation } from "react-i18next";
 import MainContent from "./mainContent";
 import Footer from "./footer";
-//import LanguageSelect from "./languageSelect";
 
 function App() {
   useEffect(() => {
