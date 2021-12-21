@@ -1,0 +1,17 @@
+.article__title {
+    text-align: center;
+}
+  
+.article__title_font_800 {
+    font-weight: 800;
+}
+  
+.article__paragraph {
+    text-align: justify;
+}
+
+.article__video {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}

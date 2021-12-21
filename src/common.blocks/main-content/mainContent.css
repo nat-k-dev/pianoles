@@ -1,0 +1,45 @@
+.main-content {
+    max-width: var(--max-width-contents);
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.main__main-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px hsl(270, 100%, 80%);
+}
+
+.main-content_background_light {
+    background-color: hsl(270, 100%, 90%);
+}
+  
+.main-content__image {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .main-content__image-caption {
+    margin-top: 5px;
+  }
+  
+  .image-caption {
+    text-align: center;
+  }
+  
+  .image-caption_text_small {
+    font-size: 13px;  
+  }
+  
+  .image-caption_text_italic {
+    font-style: italic; 
+  }

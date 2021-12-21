@@ -1,6 +1,7 @@
 import React from "react";
+import "./header.css";
 import { useTranslation } from "react-i18next";
-import LanguageSelect from "./languageSelect";
+import LanguageSelect from "./__language-select/languageSelect";
 
 const Header = () => {
     const { t } = useTranslation();

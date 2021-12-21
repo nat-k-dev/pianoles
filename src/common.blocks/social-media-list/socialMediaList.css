@@ -1,0 +1,57 @@
+.article__social-media-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.social-media-list {
+    list-style-type: none;
+    padding: 20px;
+}
+  
+@media only screen and (max-width: 600px) {
+    .social-media-list {
+        padding: 5px;
+    } 
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 5px 2px hsl(270, 100%, 85%);
+}
+  
+  /* Add a hover effect if you want */
+.fa:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 6px 2px hsl(270, 100%, 80%);
+    transition: transform 0.5s;
+}
+  
+  /* Set a specific color for each brand */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-vk {
+    background-color: #4C75A3;
+    color: white;
+}
+  
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: lightgrey;
+}

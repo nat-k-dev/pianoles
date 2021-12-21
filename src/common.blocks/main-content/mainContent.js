@@ -1,6 +1,7 @@
 import React from "react";
 import { Trans } from "react-i18next";
-import Article from "./article";
+import "./mainContent.css";
+import Article from "./__article/article";
 
 const MainContent = () => {
     return (
