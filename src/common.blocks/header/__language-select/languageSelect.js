@@ -1,24 +1,21 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-
 import ArrowDropDown from "@material-ui/icons/ArrowDropDown";
 import Button from "@material-ui/core/Button";
 import Popover from "@material-ui/core/Popover";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import ListSubheader from "@material-ui/core/ListSubheader";
+import "./language-select.css";
 
 const languageMap = {
-  en: { label: "English", dir: "ltr", active: true },
-  ru: { label: "Русский", dir: "ltr", active: false },
-  fr: { label: "Français", dir: "ltr", active: false },
-  nl: { label: "Nederlands", dir: "ltr", active: false }
+  en: { label: "EN", dir: "ltr", active: true },
+  ru: { label: "RU", dir: "ltr", active: false },
+  fr: { label: "FR", dir: "ltr", active: false },
+  nl: { label: "NL", dir: "ltr", active: false }
 };
 
 const LanguageSelect = () => {
   const selected = localStorage.getItem("i18nextLng").split('-')[0] || "en";
-  const { t } = useTranslation();
 
   const [menuAnchor, setMenuAnchor] = React.useState(null);
   React.useEffect(() => {
@@ -26,12 +23,12 @@ const LanguageSelect = () => {
   }, [menuAnchor, selected]);
 
   return (
-    <div className="d-flex justify-content-end align-items-center language-select-root">
-      <Button onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
+    <div className="d-flex justify-content-end align-items-center language-select-root language-select">
+      <Button style={{ color: "plum" }} onClick={({ currentTarget }) => setMenuAnchor(currentTarget)}>
         {languageMap[selected].label}
         <ArrowDropDown fontSize="small" />
       </Button>
-      <Popover
+      <Popover 
         open={!!menuAnchor}
         anchorEl={menuAnchor}
         onClose={() => setMenuAnchor(null)}
@@ -44,9 +41,8 @@ const LanguageSelect = () => {
           horizontal: "right"
         }}
       >
-        <div>
+        <div class="language-select__list-item">
           <List>
-            <ListSubheader>{t("select_language")}</ListSubheader>
             {Object.keys(languageMap)?.map(item => (
               <ListItem
                 button

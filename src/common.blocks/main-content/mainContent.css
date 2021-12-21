@@ -19,8 +19,8 @@
 }
 
 .main-content_background_light {
-    color: black;
-    background-color: hsl(270, 100%, 90%);
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
 }
   
 .main-content__image {

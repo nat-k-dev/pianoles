@@ -1,0 +1,19 @@
+.language-select {
+    border-bottom: 1px solid plum;
+    border-right: 1px solid plum;
+    border-radius: 10px;
+}
+
+.language-select:hover {
+    border-bottom: none;
+    border-right: none;
+}
+
+.language-select__list-item {
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
+.language-select__list-item ul {
+    padding: 0;
+}

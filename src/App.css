@@ -7,6 +7,9 @@ body, html {
   --max-width-contents: 600px;
   --link-text-color-special-purple: hsl(293, 65%, 30%);
   --link-text-color-special-light: lightgrey;
+
+  --main-text-color: black;
+  --main-background-color: hsl(270, 100%, 90%);
 }
 
 .main {
