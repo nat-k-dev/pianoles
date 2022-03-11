@@ -20,7 +20,7 @@ const Article = () => {
               </p>
               <p className="article__paragraph paragraph">
                 <Trans i18nKey="in_march_2020_performed_at_urgant">
-                  In <time dateTime="2020-03">March 2020</time>, Hadn Dadn performed at the Evening Urgant show on Channel One (russian television):
+                  In <time dateTime="2020-03">March 2020</time>, Hadn Dadn performed at the Evening Urgant show.
                 </Trans>
               </p>
               <center>
