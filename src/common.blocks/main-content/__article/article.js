@@ -24,7 +24,7 @@ const Article = () => {
                 </Trans>
               </p>
               <center>
-                <iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/nD3b83HzD7c?start=29" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="article__video" width="560" height="315" src="https://www.youtube.com/embed/JGNiMutYBm4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </center>
             </section>
             <section className="article__composition">
