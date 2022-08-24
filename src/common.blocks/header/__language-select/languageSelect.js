@@ -9,13 +9,12 @@ import "./language-select.css";
 
 const languageMap = {
   en: { label: "EN", dir: "ltr", active: true },
-  ru: { label: "RU", dir: "ltr", active: false },
   fr: { label: "FR", dir: "ltr", active: false },
   nl: { label: "NL", dir: "ltr", active: false }
 };
 
 const LanguageSelect = () => {
-  const selected = localStorage.getItem("i18nextLng").split('-')[0] || "en";
+  const selected = "en";
 
   const [menuAnchor, setMenuAnchor] = React.useState(null);
   React.useEffect(() => {
