@@ -13,7 +13,7 @@ const MainContent = () => {
               </a>
               <figcaption className="main-content__image-caption image-caption image-caption_text_small image-caption_text_italic">
                 <Trans i18nKey="figcaption_img_caption">
-                  Piano lesson for adults and children, image by v.ivash from freepik.com
+                  Piano lessons for adults and children, image by v.ivash from freepik.com
                 </Trans>
               </figcaption>
           </figure>
