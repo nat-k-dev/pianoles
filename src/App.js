@@ -7,7 +7,7 @@ import Footer from "./common.blocks/footer/footer";
 
 function App() {
   useEffect(() => {
-      document.title = "Hadn Dadn"
+      document.title = "Piano Lessons"
   }, []);
 
   const { t } = useTranslation();
