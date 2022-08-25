@@ -17,7 +17,7 @@ const Article = () => {
                 {t("history_text_1")}
               </p>
               <center>
-                <video width="600" height="315" loop autoPlay muted>
+                <video loop autoPlay muted>
                   <source src={pianoVideo} type="video/mp4" />
                 </video>
               </center>
