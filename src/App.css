@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  background: linear-gradient(to right, #403F44, #1E1B32);
+
   color: #FFF;
   --max-width-contents: 600px;
   --link-text-color-special-purple: hsl(293, 65%, 30%);
@@ -19,6 +19,7 @@ body, html {
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat", Helvetica, sans-serif;
+  position: relative;
 }
 
 .sr-only {
@@ -28,4 +29,16 @@ body, html {
   width:1px;
   height:1px;
   overflow:hidden;
+}
+
+.main__background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/img/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }

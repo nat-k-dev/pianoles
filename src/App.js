@@ -15,6 +15,7 @@ function App() {
 
   return (
       <div className="main">
+        <div className='main__background-image' />
         <Header />
         <MainContent />
         <Footer />
