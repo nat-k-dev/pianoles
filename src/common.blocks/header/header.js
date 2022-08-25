@@ -14,7 +14,7 @@ const Header = () => {
               <LanguageSelect />
             </div>
           </div>
-          <p className="header__description header__description_font_small-caveat">{t("moscow_music_group")}</p>
+          <p className="header__description header__description_font_small-caveat">{t("header_text")}</p>
         </header>
     );
 };
