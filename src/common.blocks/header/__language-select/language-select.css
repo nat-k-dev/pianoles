@@ -1,12 +1,8 @@
 .language-select {
-    border-bottom: 1px solid plum;
-    border-right: 1px solid plum;
-    border-radius: 10px;
-}
-
-.language-select:hover {
-    border-bottom: none;
-    border-right: none;
+    background-color: var(--main-background-color);
+    border: 1px solid var(--main-background-color);
+    border-radius: 5px;
+    width: 100%;
 }
 
 .language-select__list-item {

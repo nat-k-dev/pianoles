@@ -1,5 +1,5 @@
 .header {
-    max-width: var(--max-width-contents);
+    width: var(--max-width-contents);
     padding: 20px;
 }
 
@@ -7,17 +7,20 @@
     .header {
         padding-left: 15px;
         padding-right: 15px;
+        width: auto;
     }
 }
 
-.header__language-select {
-    float: right;
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media only screen and (max-width: 365px) {
-    .header__language-select {
-        float: none;
-        width: fit-content;
+@media only screen and (max-width: 300px) {
+    .header__container {
+        flex-direction: column-reverse;
+        align-items: flex-end;
     }
 }
   
