@@ -15,7 +15,6 @@ const languageMap = {
 
 const LanguageSelect = () => {
   let storagedLanguage =  localStorage.getItem("i18nextLng").split('-')[0];
-  console.log(storagedLanguage);
   if (!languageMap[storagedLanguage]) storagedLanguage = "en";
   const selected = storagedLanguage ;
 
