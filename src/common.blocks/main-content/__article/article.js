@@ -16,11 +16,13 @@ const Article = () => {
               <p className="article__paragraph paragraph paragraph_text_justify">
                 {t("history_text_1")}
               </p>
-              <center>
-                <video loop autoPlay muted>
-                  <source src={pianoVideo} type="video/mp4" />
-                </video>
-              </center>
+              <a href="https://www.pexels.com/video/close-up-footage-of-someone-playing-a-piano-3865344/" target="_blank" rel="noopener noreferrer">
+                <center>
+                  <video loop autoPlay muted>
+                    <source src={pianoVideo} type="video/mp4" />
+                  </video>
+                </center>
+              </a>
             </section>
             <section className="article__awards">
               <h3 className="article__subtitle">{t("awards")}</h3>
